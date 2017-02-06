@@ -13,7 +13,7 @@ setup(
     description="Task manager.",
     long_description=(
         open("README.md").read() + "\n" +
-        open("HISTORY.md").read() + "\n" +
+        open("HISTORY.md").read() + "\n"
     ),
     # Get more strings from
     # http://pypi.python.org/pypi?:action=list_classifiers
@@ -27,7 +27,6 @@ setup(
     url='https://github.com/eaudeweb/task_manna',
     license='GPL-3',
     packages=find_packages('src', exclude=['ez_setup']),
-    namespace_packages=[],
     package_dir={'': 'src'},
     include_package_data=True,
     zip_safe=False,
