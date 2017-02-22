@@ -48,7 +48,7 @@ class Task(object):
 def fetch_remote(base_url: str, api_key: str, user_id: int) -> dict:
     url = '{}/issues.json'.format(base_url)
 
-    payload = dict(assigned_to_user_id=user_id, status_id='open')
+    payload = dict(assigned_to_id=user_id, status_id='open')
     headers = {
         'X-Redmine-API-Key': api_key
     }
